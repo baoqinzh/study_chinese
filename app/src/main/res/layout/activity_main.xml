@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/colorBackground"
+android:textSize="30sp"
+tools:context="baoqin.study_chinese.MainActivity">
+
+
+<TextView
+    android:id="@+id/displayName"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="5dp"
+    android:text="幼儿汉语1"
+    android:textAlignment="center"
+    android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+    android:textColor="?android:attr/colorControlActivated"
+    android:textSize="50sp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+<LinearLayout
+    android:layout_width="202dp"
+    android:layout_height="339dp"
+    android:layout_marginLeft="88dp"
+    android:gravity="left|center_horizontal"
+    android:orientation="vertical"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <TextView
+        android:id="@+id/group1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="left|center_vertical"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:text="第一组"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/group2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:text="第二组"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/group3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:text="第三组"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/group4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:text="第四组"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/group5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:text="第五组"
+        android:textSize="40sp" />
+</LinearLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:layout_gravity="center"
+    android:textSize="10sp"
+    tools:context="baoqin.study_chinese.GroupActivity">
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="3"
+        android:rowCount="4"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <TextView
+            android:id="@+id/displayName1"
+            android:layout_width="95dp"
+            android:layout_height="90dp"
+            android:background="@android:drawable/btn_star_big_on"
+            android:text=""
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/displayName2"
+            android:layout_width="95dp"
+            android:layout_height="90dp"
+            android:background="@android:drawable/btn_star_big_on"
+            android:text=""
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/displayName3"
+            android:layout_width="95dp"
+            android:layout_height="90dp"
+            android:background="@android:drawable/btn_star_big_on"
+            android:text=""
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/displayName4"
+            android:layout_width="95dp"
+            android:layout_height="90dp"
+            android:background="@android:drawable/btn_star_big_on"
+            android:text=""
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/displayName5"
+            android:layout_width="95dp"
+            android:layout_height="90dp"
+            android:background="@android:drawable/btn_star_big_on"
+            android:text=""
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/displayName6"
+            android:layout_width="95dp"
+            android:layout_height="90dp"
+            android:background="@android:drawable/btn_star_big_on"
+            android:text=""
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/displayName7"
+            android:layout_width="95dp"
+            android:layout_height="90dp"
+            android:background="@android:drawable/btn_star_big_on"
+            android:text=""
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/displayName8"
+            android:layout_width="95dp"
+            android:layout_height="90dp"
+            android:background="@android:drawable/btn_star_big_on"
+            android:text=""
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/displayName9"
+            android:layout_width="95dp"
+            android:layout_height="90dp"
+            android:background="@android:drawable/btn_star_big_on"
+            android:text=""
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/displayName10"
+            android:layout_width="95dp"
+            android:layout_height="90dp"
+            android:background="@android:drawable/btn_star_big_on"
+            android:text=""
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/displayName11"
+            android:layout_width="95dp"
+            android:layout_height="90dp"
+            android:background="@android:drawable/btn_star_big_on"
+            android:text=""
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/displayName12"
+            android:layout_width="95dp"
+            android:layout_height="90dp"
+            android:background="@android:drawable/btn_star_big_on"
+            android:text=""
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textStyle="bold" />
+    </GridLayout>
+</android.support.constraint.ConstraintLayout>

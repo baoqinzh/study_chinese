@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.myapplication.MainActivity">
+    <item android:id="@+id/action_sound" android:icon="@drawable/ic_volume_off_white_24dp"
+        android:orderInCategory="1" app:showAsAction="always"
+        android:title="sound" />
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/app_name"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_go_back"
+        android:orderInCategory="100"
+        android:title="go back"
+        app:showAsAction="never" />
+</menu>

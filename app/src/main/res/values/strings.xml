@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">宝宝学中文</string>
+    <string name="groupName">幼儿汉语1</string>
+    <string name="groupNum">1</string>
+    <string-array name="itemInfo"></string-array>
+</resources>
